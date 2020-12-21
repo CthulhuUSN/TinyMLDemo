@@ -12,7 +12,6 @@ const char* password = "<password>";
 const char* host = "<victim ip>";
 const uint16_t port = 80;
 String url = "/led100";
-long randNumber;
 
 /* create display(Adr, SDA-pin, SCL-pin) */
 SSD1306 display(0x3c, 5, 4);   // GPIO 5 = D1, GPIO 4 = D2
